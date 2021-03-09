@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentBComponent implements OnInit {
 
+  value = '';
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  setValue(val:string) {
+    this.value = val;
   }
 
 }

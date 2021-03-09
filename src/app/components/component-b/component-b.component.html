@@ -1,1 +1,5 @@
 <p>component-b works!</p>
+<button (click)="setValue('data1')">Set Value 1</button>
+<button (click)="setValue('data2')">Set Value 2</button>
+
+<app-child-b [data]='value'></app-child-b>
