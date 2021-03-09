@@ -7,11 +7,12 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
-  {path:'a', component: ComponentAComponent},
-  {path:'b', component: ComponentBComponent},
-  {path:'c', component: ComponentCComponent},
-  {path:'**', component: PageNotFoundComponent}, // Wildcard route for a 404 page
+  { path:'', component: HomeComponent },
+  { path:'a', component: ComponentAComponent },
+  { path:'b', component: ComponentBComponent },
+  { path:'c', component: ComponentCComponent },
+  { path: 'customers', loadChildren: () => import('./customers/customers.module').then(m => m.CustomersModule) },
+  { path:'**', component: PageNotFoundComponent }, // Wildcard route for a 404 page
 ];
 
 @NgModule({
