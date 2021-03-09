@@ -38,6 +38,11 @@ a:hover {
   background-color: #c6e9ff;
 }
 
+.content {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 @media only screen and (max-width: 500px) {
   ul {
     flex-direction: column;

@@ -3,13 +3,14 @@
     <button (click)="toggle($event)">{{buttonText}}</button>
     <ng-container *ngIf="!hideMenu">
     <!-- list item one -->
-    <li><a href="#a"> Component A </a></li>
+    <li><a routerLink="/a"> Component A </a></li>
     <!-- list item two -->
-    <li><a href="#b"> Component B </a></li>
+    <li><a routerLink="/b"> Component B </a></li>
     <!-- list item three -->
-    <li><a href="#c"> Component C </a></li>
+    <li><a routerLink="/c"> Component C </a></li>
     </ng-container>
   </ul>
 </nav>
-
-<router-outlet></router-outlet>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
