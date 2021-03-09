@@ -1,1 +1,5 @@
 <p>component-a works!</p>
+
+<button *ngIf="!childComponentLoaded"
+    (click)="loadChild()">Load Child Component</button>
+<ng-container #childContainer></ng-container>
