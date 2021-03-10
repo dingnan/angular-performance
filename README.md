@@ -4,19 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 `npx -p @angular/cli ng new angular-performance`
 
-## Generate feature module
-
-`npx ng generate module customers --route customers --module app.module`
-
 ## Performance Tuning
 
 1. lazy load module
 2. lazy load component
 3. change detection strategies - OnPush
+4. analyze bundle size `npm run analyze`
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npx ng g c component-name` to generate a new component. You can also use `npx ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+Run `npx ng generate module customers --route customers --module app.module` to generate feature module
 
 ## Build
 
