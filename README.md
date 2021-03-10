@@ -7,9 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Performance Tuning
 
 1. lazy load module
-2. lazy load component
-3. change detection strategies - OnPush
-4. analyze bundle size `npm run analyze`
+2. preload lazy modules in the background
+3. lazy load component
+4. change detection strategies - OnPush
+5. analyze bundle size `npm run analyze`
 
 ## Code scaffolding
 
