@@ -9,6 +9,7 @@ import { ComponentCComponent } from './components/component-c/component-c.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { ChildBComponent } from './components/child-b/child-b.component';
+import { DollarAmountPipePipe } from './pipe/dollar-amount-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ChildBComponent } from './components/child-b/child-b.component';
     ComponentCComponent,
     PageNotFoundComponent,
     HomeComponent,
-    ChildBComponent
+    ChildBComponent,
+    DollarAmountPipePipe
   ],
   imports: [
     BrowserModule,

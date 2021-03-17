@@ -1,1 +1,10 @@
 <p>component-c works!</p>
+<div style="margin-bottom: 30px;">
+    <button (click)="setValue(12.340005)">Set Value 1</button>
+    <button (click)="setValue(89.340005)">Set Value 2</button>
+</div>
+<div style="margin-bottom: 30px;">
+    Pipe: {{value | dollarAmountPipe}}
+</div>
+
+<div>Method: {{dollarAmount()}}</div>
