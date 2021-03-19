@@ -1,1 +1,6 @@
 <p>customers works!</p>
+
+<button (click)='changeName()'>Change the name of second item</button>
+<ul>
+    <li *ngFor="let item of items; trackBy: identifyByName">{{liRender(item)}}{{item.name}}</li>
+</ul>
