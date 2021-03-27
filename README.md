@@ -9,11 +9,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. lazy load module
 2. preload lazy modules in the background
 3. lazy load component
-4. change detection strategies - OnPush
-5. make onPush the default change detection strategy
-6. analyze bundle size `npm run analyze`
-7. using a pure pipe instead of method in templates
-8. Using trackBy in ngFor
+4. analyze bundle size `npm run analyze`
+5. change detection strategies - OnPush
+6. make onPush the default change detection strategy
+7. detaching top components from the Change Detector
+8. using a pure pipe instead of method in templates
+9. using trackBy in ngFor
 
 ## Code scaffolding
 

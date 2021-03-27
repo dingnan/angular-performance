@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,9 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { HomeComponent } from './components/home/home.component';
 import { ChildBComponent } from './components/child-b/child-b.component';
 import { DollarAmountPipePipe } from './pipe/dollar-amount-pipe.pipe';
+import { DemoCdComponent } from './components/demo-cd/demo-cd.component';
+import { DemoCdDefaultComponent } from './components/demo-cd-default/demo-cd-default.component';
+import { DemoCdOnpushComponent } from './components/demo-cd-onpush/demo-cd-onpush.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +24,14 @@ import { DollarAmountPipePipe } from './pipe/dollar-amount-pipe.pipe';
     PageNotFoundComponent,
     HomeComponent,
     ChildBComponent,
-    DollarAmountPipePipe
+    DollarAmountPipePipe,
+    DemoCdComponent,
+    DemoCdDefaultComponent,
+    DemoCdOnpushComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
