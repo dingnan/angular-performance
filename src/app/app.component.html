@@ -2,13 +2,10 @@
   <ul>
     <button (click)="toggle($event)">{{buttonText}}</button>
     <ng-container *ngIf="!hideMenu">
-    <!-- list item one -->
     <li><a routerLink="/a"> Component A </a></li>
-    <!-- list item two -->
     <li><a routerLink="/b"> Component B </a></li>
-    <!-- list item three -->
     <li><a routerLink="/c"> Component C </a></li>
-    <!-- list item three -->
+    <li><a routerLink="/cd"> Change Detection </a></li>
     <li><a routerLink="/customers"> Customers </a></li>
     </ng-container>
   </ul>
