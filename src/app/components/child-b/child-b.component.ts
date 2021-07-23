@@ -14,7 +14,8 @@ export class ChildBComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  check() {
+  get check() {
     console.log('child component b view checked');
+    return true;
   }
 }

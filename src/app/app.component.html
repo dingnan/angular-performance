@@ -2,11 +2,11 @@
   <ul>
     <button (click)="toggle($event)">{{buttonText}}</button>
     <ng-container *ngIf="!hideMenu">
-    <li><a routerLink="/a"> Component A </a></li>
-    <li><a routerLink="/b"> Component B </a></li>
-    <li><a routerLink="/c"> Component C </a></li>
-    <li><a routerLink="/cd"> Change Detection </a></li>
-    <li><a routerLink="/customers"> Customers </a></li>
+      <li><a routerLink="/a" routerLinkActive="active">Lazy load component</a></li>
+      <li><a routerLink="/b" routerLinkActive="active">OnPush</a></li>
+      <li><a routerLink="/c" routerLinkActive="active">Pipe vs Method</a></li>
+      <li><a routerLink="/cd" routerLinkActive="active">Change Detection</a></li>
+      <li><a routerLink="/customers" routerLinkActive="active">Lazy load feature module</a></li>
     </ng-container>
   </ul>
 </nav>

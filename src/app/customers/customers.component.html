@@ -1,5 +1,8 @@
-<p>customers works!</p>
-
+<h1>preload lazy modules in the background</h1>
+<p>open devtool network tab to check</p>
+<h1>Using trackBy in ngFor</h1>
+<p>Open Google Chrome DevTools, Elements tab,
+observe the li re-render </p>
 <button (click)='changeName()'>Change the name of second item</button>
 <ul>
     <li *ngFor="let item of items; trackBy: identifyByName">{{liRender(item)}}{{item.name}}</li>
