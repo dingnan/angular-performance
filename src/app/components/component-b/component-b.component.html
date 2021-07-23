@@ -1,6 +1,9 @@
 <h1>Change detection: OnPush</h1>
 <p>open devtool console to check</p>
-<button (click)="setValue('data1')" style="margin-right: 20px;">Set Value 1</button>
-<button (click)="setValue('data2')">Set Value 2</button>
+<div class="content">
+    <button (click)="setValue('data1')" style="margin-right: 20px;">Set Value 1</button>
+    <button (click)="setValue('data2')" style="margin-right: 20px;">Set Value 2</button>
+    <button (click)="onClick()" style="margin-right: 20px;">Do Nothing</button>
 
-<app-child-b [data]='value'></app-child-b>
+    <app-child-b [data]='data'></app-child-b>
+</div>

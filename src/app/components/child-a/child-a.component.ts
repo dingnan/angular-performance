@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+// lazy loaded, no need to be imported in app.module.ts
 @Component({
   selector: 'app-child-a',
   templateUrl: './child-a.component.html',

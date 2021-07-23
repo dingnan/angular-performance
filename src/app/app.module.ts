@@ -10,6 +10,7 @@ import { ComponentCComponent } from './components/component-c/component-c.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { ChildBComponent } from './components/child-b/child-b.component';
+import { ChildCComponent } from './components/child-c/child-c.component';
 import { DollarAmountPipePipe } from './pipe/dollar-amount-pipe.pipe';
 import { DemoCdComponent } from './components/demo-cd/demo-cd.component';
 import { DemoCdDefaultComponent } from './components/demo-cd-default/demo-cd-default.component';
@@ -24,6 +25,7 @@ import { DemoCdOnpushComponent } from './components/demo-cd-onpush/demo-cd-onpus
     PageNotFoundComponent,
     HomeComponent,
     ChildBComponent,
+    ChildCComponent,
     DollarAmountPipePipe,
     DemoCdComponent,
     DemoCdDefaultComponent,

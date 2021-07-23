@@ -6,15 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./component-b.component.scss']
 })
 export class ComponentBComponent implements OnInit {
-
-  value = '';
+  data = {
+    id: 1,
+    value: ''
+  };
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  setValue(val:string) {
-    this.value = val;
+  setValue(val: string) {
+    this.data.value = val;
   }
 
+  onClick() {
+    console.log('component b -- button clicked');
+  }
 }

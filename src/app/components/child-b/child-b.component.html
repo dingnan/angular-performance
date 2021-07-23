@@ -1,3 +1,10 @@
-<p>child-b works!</p>
-<p>{{ check }}</p>
-data: {{data}}
+<div class="content">
+    <p>child-b works!</p>
+    <p>view chang: {{ check }}</p>
+    <p>input data: {{data | json}}</p>
+
+    <button (click)="onclick()">Do Nothing</button>
+    <div>
+        <app-child-c [data]="childData"></app-child-c>
+    </div>
+</div>
