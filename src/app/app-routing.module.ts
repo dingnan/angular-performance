@@ -6,6 +6,7 @@ import { ComponentCComponent } from './components/component-c/component-c.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { DemoCdComponent } from './components/demo-cd/demo-cd.component';
+import { SignalCDComponent } from 'src/app/components/signal-cd/signal-cd.component';
 
 const routes: Routes = [
   { path:'', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path:'b', component: ComponentBComponent },
   { path:'c', component: ComponentCComponent },
   { path:'cd', component: DemoCdComponent },
+  { path:'cd2', component: SignalCDComponent },
   // lazy load feature module
   { path: 'customers', loadChildren: () => import('./customers/customers.module').then(m => m.CustomersModule) },
   // Wildcard route for a 404 page
