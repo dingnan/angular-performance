@@ -89,7 +89,7 @@ export class ChildComponent {
     this.signal.set(this.signal() + 1);
   }
   start() {
-    this.intervalId = setInterval(() => {
+    this.intervalId = window.setInterval(() => {
       this.increment();
     }, 1000);
   }
